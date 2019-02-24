@@ -1,0 +1,19 @@
+@media screen and (max-width: 500px) { 
+    .title {
+        margin: 5% 25% !important;
+    }
+}
+
+.title { 
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin: 2.5% 40%;
+    font-size: 1.75em;
+    white-space: nowrap;
+    border-bottom: 20px solid transparent;
+    border-image: linear-gradient(to right,RGBA(21, 87, 153, 0.65), 
+    RGBA(21, 153, 87, 0.5));
+    border-image-slice: 1;
+    border-width: 0.2em;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,13 @@
+@media screen and (max-width: 500px) {
+    .bio {
+        margin: 5% 7.5% !important;
+    }
+}
+
+.bio {
+    font-family: 'PT Sans', sans-serif;
+    text-align: justify;
+    margin: 1.5% 20%;
+    font-size: 1.2em;
+    line-height: 1.6;
+}

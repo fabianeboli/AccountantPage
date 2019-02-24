@@ -1,0 +1,9 @@
+.skills {
+    font-family: 'PT Sans', sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+}
+

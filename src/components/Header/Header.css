@@ -1,0 +1,38 @@
+.image { 
+    /* Image  used*/
+    /* background-image: url("cos.jpg");  */
+
+     /* -----Gradient over image---- */ 
+    /* RGBA(21, 153, 87, 1) #15997 Green */
+    /* RGBA(21, 87, 153, 1) #155799 Blue */
+    background: #159957;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, RGBA(21, 87, 153, 0.6), RGBA(21, 153, 87, 0.6)),
+    url('./mountain.jpg');  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, RGBA(21, 87, 153, 0.65), RGBA(21, 153, 87, 0.5)),
+    url('./mountain.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    /* Center */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Controlling the size of image */
+    height: 100vh;
+    weight: 100vw;
+}
+
+.companyName { 
+    font-size: 4em;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: snow;
+    text-shadow: 2px 2px 4px black;
+}
+
+.accountantName {
+    font-size: 7em;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: snow;
+    text-shadow: 2px 2px 4px black;
+}
