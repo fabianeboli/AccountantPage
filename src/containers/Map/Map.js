@@ -1,24 +1,23 @@
 import React from 'react';
-import {render} from 'react-dom';
 //import styles from './Map.css'
-import './Map.css';
-import { Map, TileLayer, Marker, Popup } from 'react-leaflet'
+//import './Map.css';
+import { Map as OpenMap, TileLayer, Marker, Popup } from 'react-leaflet'
 
 const stamenTonerTiles = "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
 const stamenTonerAttr = '&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 
-export default class Localization extends React.Component {
+export default class Map extends React.Component {
     state = {
-        lat: 52.3211,
-        lng: 56.34231,
-        zoom: 16
+        lat: 52.5663683,
+        lng: 18.1069481,
+        zoom: 14
     }
 
     render() {
         const position = [this.state.lat, this.state.lng];
         return (
             <div>
-                <Map center={position} zoom={this.state.zoom} style={{height: "40vh"}}>
+             	   <OpenMap center={position} zoom={this.state.zoom} style={{height: "40vh"}}>
                     <TileLayer
                         attribution={stamenTonerAttr}
                         url={stamenTonerTiles} />
@@ -27,10 +26,8 @@ export default class Localization extends React.Component {
                             VAT - PIT
                     </Popup>
                     </Marker>
-                </Map>
+                </OpenMap>
             </div>
         )
     }
 }
-
-// render(Localization, document.getElementById('map-container'))

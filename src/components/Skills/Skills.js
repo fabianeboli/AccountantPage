@@ -7,7 +7,7 @@ import styles from './Skills.css';
 export default () => {
   return (
     <div>
-      <Title text="Usługi"/> 
+      <Title text="Oferta"/> 
       <div className={styles.skills}>
         <Skill text="PIT" icon={faPercent}/>
         <Skill text="CIT" icon={faPercent}/>
