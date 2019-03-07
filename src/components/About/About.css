@@ -3,10 +3,24 @@
         margin: 5% 7.5% !important;
     }
 }
+.container {
+    /* display: grid;
+    grid-template-columns: [bio] 1fr [whom] 2fr; */
+    display: block;
+    justify-content: center;
+    margin: 1.5% 20%;
+    
+}
 
 .bio {
     font-family: 'PT Sans', sans-serif;
     text-align: justify;
-    margin: 1.5% 20%;
+    /* margin: 1.5% 20%; */
+    padding-right: 5%; 
     font-size: 1.2em;
+}
+
+.whom { 
+    display: flex;
+    /* margin: 1.5% 5%; */
 }
