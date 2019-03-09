@@ -1,6 +1,10 @@
 .skill {
-    border: 1px solid #aaa;
-    padding: 2.5%;
+    border: 1px solid #abababaf;
+    border-radius: 2px;
+
+    flex-basis: 0;
+    flex-grow: 1;
+    /* padding: 1.0%; */
 }
 
 .icon { 
@@ -13,11 +17,21 @@
                inset 0 0 50px rgba(255, 255, 255, 0.2); */
     color: white; 
     background-color: RGBA(21, 153, 87, 1);
-    border-radius: 60px;
-    padding: 0.3em;
+    border-radius: 40px;
+    padding: 0.5em;
+    margin: 0.2em;
+    /* border-bottom: 5px solid #ababab; !!!3D!!! */ 
+}
+.iconBackground {
+    background-color: RGBA(21, 153, 87, 1);
+    text-align: center;
 }
 
 .text {
     padding: 0.4em 0;
-    font-size: 1.25em;
+    font-size: 1.45em;
+    margin: 2.5% 10%;
+    padding-bottom: 2.5%; 
+    border-bottom: 1px solid #ababab;
+    text-align: center;
 }

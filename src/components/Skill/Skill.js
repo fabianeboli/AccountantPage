@@ -8,9 +8,14 @@ export default (props) => {
   return (
     <>
       <div className={styles.skill}>
-        <FontAwesomeIcon color='RGBA(21, 130, 87, 0.45)' className={styles.icon} icon={props.icon} size='7x' />
-       {props.children}
+      <div className={styles.iconBackground}>
+      <FontAwesomeIcon color='RGBA(21, 130, 87, 0.45)' 
+        className={styles.icon} 
+        icon={props.icon} 
+        size='7x' />
+      </div>
         <div className={styles.text}>{props.text}</div>
+       {props.children}
       </div>
     </>
   )

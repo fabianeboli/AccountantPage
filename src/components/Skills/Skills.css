@@ -2,11 +2,17 @@
     font-family: 'PT Sans', sans-serif;
     display: flex;
     flex-wrap: nowrap;
-    text-align: center;
-    margin: 0 auto;
-    justify-content: center;
+    
+    margin: 0 30%;
+    justify-content: center; 
 }
 .skill {
     border: 10px solid black;
+    flex-grow: 1;
+    flex-basis: 0;
+    text-align: justify;
+    hyphens: auto;   
 }
-
+#subTitle {
+    /* text-align: center; */
+}
