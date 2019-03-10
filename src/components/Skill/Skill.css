@@ -5,6 +5,8 @@
     flex-basis: 0;
     flex-grow: 1;
     /* padding: 1.0%; */
+      background-color: white;
+    color: black;
 }
 
 .icon { 
@@ -34,4 +36,5 @@
     padding-bottom: 2.5%; 
     border-bottom: 1px solid #ababab;
     text-align: center;
+  
 }

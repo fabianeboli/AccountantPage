@@ -1,3 +1,9 @@
+.section {
+    background-color: #155799;
+    color: white;
+    padding-bottom: 3.0em;
+}
+
 .skills {
     font-family: 'PT Sans', sans-serif;
     display: flex;
@@ -5,6 +11,7 @@
     
     margin: 0 30%;
     justify-content: center; 
+    
 }
 .skill {
     border: 10px solid black;

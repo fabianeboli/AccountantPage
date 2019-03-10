@@ -11,7 +11,7 @@ import styles from './Contact.css'
 export default () => {
   return (
     <>
-    <Title text='Skontaktuj się' />
+    <Title text='Skontaktuj się' id='contact'/>
     <div className={styles.container}>
       <ContactInfo title="Adres biura" >
         <FontAwesomeIcon icon={faBuilding} color='#159957'/> Strzelno, Ostrowo 4 <br />

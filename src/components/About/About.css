@@ -11,7 +11,8 @@
 .container {
     /* display: grid;
     grid-template-columns: [bio] 1fr [whom] 2fr; */
-    display: block;
+    display: flex;
+    
     justify-content: center;
     margin: 1.5% 25%;
     
@@ -20,8 +21,8 @@
 .bio {
     font-family: 'PT Sans', sans-serif;
     text-align: justify;
-    /* margin: 1.5% 20%; */
-    font-size: 1.25em;
+    /* hyphens: auto; */
+    font-size: 1.3em;
 }
 
 .whom { 

@@ -7,13 +7,13 @@ export default class About extends Component {
   render() {
     return (
       <>
-      <Title text="O mnie"/>
+      <Title text="O mnie" id='about' />
       <div className={styles.container}>
       {/* Lewa kolumna */}
       <p className={styles.bio}>
-      Na imię mi Alicja Nazwisko. Jestem absolwentką Podyplomowego Studium Rachunkowości Uniwersytetu Ekonomicznego w Poznaniu. 
+      Nazywam się Alicja Ziółkowska. Jestem absolwentką Podyplomowego Studium Rachunkowości Uniwersytetu Ekonomicznego w Poznaniu. 
       Pochodzę z rodziny o tradycjach księgowych.
-      Firmę prowadzę od 2011 roku. 
+      Swoją firmę prowadzę od 2011 roku. 
       Zajmuję się prowadzeniem rachunkowości mikro i małych firm ( księgi handlowe, PKPIR, ryczałt od przychodów ewidencjonowanych), 
       prowadzę również rozliczenia z ZUSem i sprawy kadrowe. 
       Oprócz firm prowadzę również rozliczenia rolników - podatników VAT oraz księgowość stowarzyszeń i fundacji. 
