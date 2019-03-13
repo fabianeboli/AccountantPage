@@ -39,5 +39,6 @@ body, html {
   margin: 0;
   font-family: 'PT sans', sans-serif;
   line-height: 1.6;
+  scroll-behavior: smooth;
 
 }

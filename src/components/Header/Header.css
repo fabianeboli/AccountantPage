@@ -1,25 +1,43 @@
+@keyframes slide { 
+    0% {
+        top: 85%;
+        opacity: 0;
+    }
+    100% {
+        top: 92%; 
+        opacity: 0.3;
+    }
+}
+@keyframes changeOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}  
 .image { 
     /* Image  used*/
     /* background-image: url("cos.jpg");  */
-
      /* -----Gradient over image---- */ 
     /* RGBA(21, 153, 87, 1) #15997 Green */
     /* RGBA(21, 87, 153, 1) #155799 Blue */
     background: #159957;  /* fallback for old browsers */
     background: linear-gradient(to top, RGBA(21, 87, 153, 0.65), RGBA(21, 153, 87, 0.5)),
     url('../../Images/HeroImage.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
     /* Center */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
     /* Controlling the size of image */
     height: 100vh;
+    position: relative;
     
 }
 
 .companyName { 
+    animation-name: changeOpacity; 
+    animation-duration: 1.5s;
     position: absolute;
     top: 40%;
     left: 40%;
@@ -33,6 +51,8 @@
 }
 
 .ownersName {
+    animation-name: changeOpacity; 
+    animation-duration: 1.5s;
     position: absolute;
     top: 58.5%;
     left: 53.5%;
@@ -45,6 +65,17 @@
 
 .arrow {
     position: absolute;
-    top: 90%;
-    left: 50%;
+    top: 92%;
+    left: 49%;
+    opacity: 0.3;
+    animation-name: slide;
+    animation-duration: 1.25s;
+    /* transform: translateY(-50px); */
+    transition: transform 2.5s ease-in-out, opacity 0.3s;   
 }
+
+.arrow:hover {
+    opacity: 0.8;
+    transition: opacity .3s ease-in;
+}
+
