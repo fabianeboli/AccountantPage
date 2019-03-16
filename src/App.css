@@ -36,6 +36,7 @@
 RGBA(21, 153, 87, 0.5) */
 
 body, html {
+  height: 100%;
   margin: 0;
   font-family: 'PT sans', sans-serif;
   line-height: 1.6;

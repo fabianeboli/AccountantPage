@@ -1,3 +1,9 @@
+@media only screen and (max-width: 800px) {
+    .navBar { 
+        visibility: hidden;
+    }
+}
+
 @keyframes changeOpacity {
     0% {
         opacity: 0;
@@ -15,10 +21,13 @@
     background-color: rgba(255, 250, 250, 0.555); 
     border-right: 6px solid #159957;
     border-left: 6px solid #155799;
-    position: absolute;
+    /* position: absolute;
     top: 4%;
-    left: 65%;  
-
+    left: 65%;   */
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        margin-right: 5.0em;
 }
 
 .navBar li { 
