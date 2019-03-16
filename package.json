@@ -2,6 +2,10 @@
   "name": "alicjaksiegowa",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "8.11.4",
+    "npm": "6.8.0"
+  },
   "dependencies": {
     "@babel/core": "7.2.2",
     "@fortawesome/fontawesome-svg-core": "^1.2.15",
