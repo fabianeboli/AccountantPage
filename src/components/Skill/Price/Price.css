@@ -1,0 +1,10 @@
+.price {
+    font-size: 1.25em;
+    margin: 2.25em 2.0em;
+}
+
+#value {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #155799;
+}

@@ -1,0 +1,31 @@
+@media only screen and (max-width: 700px) {
+    .container {
+        border-right: none !important;
+    }
+    #title { 
+        border-bottom: 2px solid #ababab;
+        padding-bottom: 10px;
+        margin: 0% 35%;
+    }
+}
+
+.container { 
+    text-align: center;
+    margin: 2.5% 0;
+    border-right: 1px solid rgba(170, 170, 170, 0.538);
+    flex-basis: 0;
+    flex-grow: 1;
+}
+ .container:last-of-type {
+    border-right: 1px solid transparent;
+ }
+ 
+ #title {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 1.1em;
+ }
+
+ #text {
+     font-size: 1.3em;
+     /* word-spacing: 0.1em; */
+ }
